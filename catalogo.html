@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animepedia</title>
+</head>
+<body>
+    <header>
+        <h1>Animepedia, a sua enciclopedia digital de personagens de animes</h1>
+    </header>
+    <nav>
+        <!--A tag "a" serve para criar link, significa anchor-->
+        <!--href é um atributo para referenciar qual link a página irá-->
+        <a href="index.html">Home |</a>
+        <b>Catálogo</b>
+        <a href="sac.html">SAC |</a>
+        <a id="nav-equipe" href="equipe.html">Equipe</a>
+    </nav>
+    <main>
+        <h2>Catálogo de personagens</h2>
+        <p>Veja abaixo os personagens já cadastrados em nosso banco de dados.</p>
+        <!--A tag table significa tabela-->
+        <!--A tag th é a linha para cabeçalho (table header)-->
+        <!--A tag tr é a linha para os dados (table row)-->
+        <!--A tag td é a coluna para os dados-->
+        <!--A tag tl é a coluna para os dados-->
+        <table border="1"> <!--Border serve para colocar borda na tabela-->
+            <thead>
+                <tr>
+                    <th>Foto:</th>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Gênero</th>   
+                    <th>Anime</th> 
+                    <th>Curiosidade</th>               
+                </tr>
+            </thead>
+            <tr>
+                <!--img serve para colocar imagem. Scr é o parâmetro da fonte e alt é o texto alternativo caso a imagem não carregue-->
+                <!--width serve para configurar o tamanho da imagem-->
+                <td><img src="img/Daiki Aomine.webp" width="70" alt="Foto do Daiki Aomine"></td>
+                <td>Daiki Aomine</td>
+                <td>16</td>
+                <td>Masculino</td>
+                <td>Kuroko no basket</td>
+                <td>Aomine foi o primeiro personagem a ser mostrado a entrar na habilidade chamada "astral" dentro do anime.</td>
+
+            </tr>
+            <tr>
+                <td><img src="img/Kakashi Hatake do Sharingan.jpg" width="70" alt="Foto do Kakashi Hatake"></td>
+                <td>Kakashi Hatake</td>
+                <td>31</td>
+                <td>Masculino</td>
+                <td>Naruto/Naruto Shipudden/Boruto</td>
+                <td>Kakashi é o único personagem que não vem do clã Uchiha que consegue usar o Susano´o</td>
+            </tr>
+            <tr>
+                <td><img src="img/Kyojurou Rengoku.webp" width="70" alt="Foto do Kyojuro Rengoku"></td>
+                <td>Kyojuro Rengoku</td>
+                <td>20</td>
+                <td>Masculino</td>
+                <td>Demon Slayer</td>
+                <td>Apesar de morrer muito cedo, Rengoku é um dos personagens mais amados pelos fãs do anime.</td>
+            </tr>
+            <tr>
+                <td><img src="img/Shoyo Hinata.webp" width="70" alt="Foto do Shoyo Hinata"></td>
+                <td>Shoyo Hinata</td>
+                <td>17</td>
+                <td>Masculino</td>
+                <td>Haikyuu!!</td>
+                <td>Hinata tem apenas 1,62 m de altura, apesar disso é um jogador muito rápido e explosivo, com saltos quase sobre-humanos, sendo uma peça essencial no time do Karasuno</td>
+            </tr>
+            <tr>
+                <td><img src="img/Tanjiro Kamado.jpg" width="70" alt="Foto do Tanjiro Kamado"></td>
+                <td>Tanjiro Kamado</td>
+                <td>25</td>
+                <td>Masculino</td>
+                <td>Demon Slayer</td>
+                <td>Apesar de ser um caçador de oni, Tanjiro aparentemente é o personagem que mais demonstra compaixão pelos oni que enfrenta.</td>
+            </tr>            
+        </table>
+    </main>
+    <footer>
+        <p>© 2025 Animepedia. Todos os direitos reservados.</p>
+        <p>Este projeto é uma ferramenta educacional e não comercial. As informações e imagens de animes são utilizadas para fins de demonstração, aprendizado e ilustração de conceitos de desenvolvimento web.</p>
+    </footer>
+</body>
+</html>
