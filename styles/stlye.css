@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Permanent Marker', cursive;
     margin: 0;
     padding: 0;
     background-color: #000000;
     color: #0400ff;
 }
 
-header {
+.cabeçalho {
     background-color: #0400ff;
     color: rgb(0, 0, 0);
     padding: 1rem;
@@ -52,12 +54,12 @@ main {
 
 h2 {
     text-align: center;
-    color: #555;
+    color: #000000;
     border-bottom: 2px solid #eee;
     padding-bottom: 10px;
 }
 
-footer {
+.rodapé {
     background-color: #333;
     color: white;
     text-align: center;
@@ -114,7 +116,7 @@ button:hover {
     background-color: #575757;
 }
 
-table {
+#tabela {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
