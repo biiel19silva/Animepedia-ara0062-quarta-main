@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
 body {
-    font-family: "MS Gothic", "Noto Sans JP", sans-serif;
+    font-family: 'Audiowide', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #000000;
@@ -133,3 +135,4 @@ thead {
 td img {
     border-radius: 5px;
 }
+
