@@ -98,8 +98,8 @@ textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 3px solid #ccc;
+    border-radius: 6px;
     box-sizing: border-box; /* Garante que o padding não afeta a largura total */
 }
 
@@ -113,7 +113,7 @@ button {
 }
 
 button:hover {
-    background-color: #575757;
+    background-color: #0099ff;
 }
 
 #tabela {
@@ -133,6 +133,7 @@ thead {
 }
 
 td img {
-    border-radius: 5px;
+    border-radius: 4px;
 }
+
 
