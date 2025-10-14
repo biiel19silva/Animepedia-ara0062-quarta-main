@@ -136,15 +136,5 @@ td img {
     border-radius: 4px;
 }
 
-a {
-  color: black; 
-
-a:visited {
-  color: purple; 
-}
-
-a:hover {
-  text-decoration: underline; 
-}
 
 
