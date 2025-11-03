@@ -28,7 +28,7 @@
         },
         "Nome": "Kyojurou Rengoku",
         "Idade": 20,
-        "genero": "Masculino",
+        "Genero": "Masculino",
         "Anime": "Demon Slayer",
         "Curiosidade": "Apesar de morrer muito cedo, Rengoku é um dos personagens mais amados pelos fãs do anime."
     },
@@ -39,7 +39,7 @@
         },
         "Nome": "Shoyo Hinata",
         "Idade": 17,
-        "genero": "Masculino",
+        "Genero": "Masculino",
         "Anime": "Haikyuu!!",
         "Curiosidade": "Hinata tem apenas 1,62 m de altura, apesar disso é um jogador muito rápido e explosivo, com saltos quase sobre-humanos, sendo uma peça essencial no time do Karasuno"
     },
@@ -50,7 +50,7 @@
         },
         "Nome": "Tanjiro Kamado",
         "Idade": 25,
-        "genero": "Masculino",
+        "Genero": "Masculino",
         "Anime": "Demon Slayer",
         "Curiosidade": "Apesar de ser um caçador de oni, Tanjiro aparentemente é o personagem que mais demonstra compaixão pelos oni que enfrenta."
     }

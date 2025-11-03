@@ -29,7 +29,7 @@ function renderizarAnimes(animes) {
                         <td><img src="${anime.Foto.src}" alt="${anime.Foto.alt}" width="70"></td> 
                         <td>${anime.Nome}</td> 
                         <td>${anime.Idade}</td>
-                        <td>${anime.genero}</td>
+                        <td>${anime.Genero}</td>
                         <td>${anime.Anime}</td> 
                         <td>${anime.Curiosidade}</td>
                     </tr> 
