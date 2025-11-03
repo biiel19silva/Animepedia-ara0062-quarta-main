@@ -1,5 +1,5 @@
 const tabelaCorpo = document.getElementById('corpo-tabela-animes');
-const urlDados = 'data/catalogo.json';
+const urlDados = 'data/dados.json';
 
 function carregarCatalogoJSON() {
 
