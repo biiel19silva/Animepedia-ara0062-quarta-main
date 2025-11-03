@@ -23,7 +23,7 @@ function renderizarAnimes(animes) {
 
     let htmlAnimes = '';
 
-    filmes.forEach(anime => {
+    animes.forEach(anime => {
         htmlAnimes += ` 
                     <tr> 
                         <td><img src="${anime.Foto.src}" alt="${anime.Foto.alt}" width="70"></td> 
