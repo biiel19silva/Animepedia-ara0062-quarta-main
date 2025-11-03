@@ -1,7 +1,7 @@
 [
     {
         "Foto": {
-            "src": ".img/Daiki Aomine.webp",
+            "src": "./img/Daiki Aomine.webp",
             "alt": "Foto do Daiki Aomine"
         },
         "Nome": "Daiki Aomine",
