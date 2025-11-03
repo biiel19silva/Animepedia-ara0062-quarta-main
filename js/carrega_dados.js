@@ -15,7 +15,7 @@ function carregarCatalogoJSON() {
         })
         .catch(error => {
             console.error('Houve um erro ao carregar o catálogo:', error);
-            tabelaCorpo.innerHTML = `<tr><td colspan="3">Erro ao carregar os filmes.</td></tr>`;
+            tabelaCorpo.innerHTML = `<tr><td colspan="3">Erro ao carregar os personagens de animes.</td></tr>`;
         });
 }
 
@@ -26,9 +26,12 @@ function renderizarAnimes(animes) {
     filmes.forEach(anime => {
         htmlAnimes += ` 
                     <tr> 
-                        <td><img src="${anime.imagem.src}" alt="${anime.imagem.alt}" width="70"></td> 
-                        <td>${anime.titulo}</td> 
-                        <td>${anime.genero}</td> 
+                        <td><img src="${anime.Foto.src}" alt="${anime.Foto.alt}" width="70"></td> 
+                        <td>${anime.Nome}</td> 
+                        <td>${anime.Idade}</td>
+                        <td>${anime.genero}</td>
+                        <td>${anime.Anime}</td> 
+                        <td>${anime.Curiosidade}</td>
                     </tr> 
                 `;
     });
