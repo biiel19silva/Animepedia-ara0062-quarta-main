@@ -16,29 +16,29 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function carregarTema() { 
 
-        // 1. Tenta obter o tema salvo no localStorage. Padrão é 'light'. 
+        // 1. Tenta obter o tema salvo no localStorage. Padrão é 'dark'. 
 
-        const temaSalvo = localStorage.getItem('preferenciaTema') || 'light'; 
+        const temaSalvo = localStorage.getItem('preferenciaTema') || 'dark'; 
 
  
 
-        if (temaSalvo === 'dark') { 
+        if (temaSalvo === 'light') { 
 
-            body.classList.add('tema-escuro'); 
+            body.classList.add('tema-claro'); 
 
             if (btnAlternarTema) { 
 
-                btnAlternarTema.textContent = 'Alternar para Tema Claro'; 
+                btnAlternarTema.textContent = 'Alternar para Tema Escuro'; 
 
             } 
 
         } else { 
 
-            body.classList.remove('tema-escuro'); 
+            body.classList.remove('tema-claro'); 
 
             if (btnAlternarTema) { 
 
-                btnAlternarTema.textContent = 'Alternar para Tema Escuro'; 
+                btnAlternarTema.textContent = 'Alternar para Tema Claro'; 
 
             } 
 
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Alterna (liga/desliga) a classe 'tema-escuro' no body 
 
-        body.classList.toggle('tema-escuro'); 
+        body.classList.toggle('tema-claro'); 
 
  
 
@@ -66,17 +66,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
  
 
-        if (body.classList.contains('tema-escuro')) { 
-
-            novoTema = 'dark'; 
-
-            btnAlternarTema.textContent = 'Alternar para Tema Claro'; 
-
-        } else { 
+        if (body.classList.contains('tema-claro')) { 
 
             novoTema = 'light'; 
 
             btnAlternarTema.textContent = 'Alternar para Tema Escuro'; 
+
+        } else { 
+
+            novoTema = 'dark'; 
+
+            btnAlternarTema.textContent = 'Alternar para Tema Claro'; 
 
         } 
 
