@@ -147,33 +147,102 @@ td img {
     border-radius: 5px;
 }
 
-/* NOVO: Classe para o tema escuro */ 
+/* NOVO: Classe para o tema claro */
 
-.tema-escuro { 
+.tema-claro {
+  background-color: #f9f9fb !important; /* Fundo claro e neutro */
+  color: #1a1a1a; /* Texto escuro para contraste */
+}
 
-  background-color: #121212 !important; /* !important garante que sobrescreve o CSS do body */ 
+.tema-claro header, 
+.tema-claro footer {
+  background-color: #e8e8ff; /* Azul muito claro para remeter ao tema original */
+  color: #000000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
 
-  color: #f0f0f0; 
+.tema-claro nav {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dcdcdc;
+}
 
-} 
+.tema-claro nav a {
+  color: #0400ff;
+  font-weight: bold;
+}
 
- 
+.tema-claro nav a:hover {
+  background-color: #e0e0ff;
+  color: #000;
+}
 
-.tema-escuro header, .tema-escuro footer { 
+.tema-claro main {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e5e5e5;
+}
 
-  background-color: #000; 
+.tema-claro button {
+  background-color: #0400ff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
 
-} 
+.tema-claro button:hover {
+  background-color: #2f2fff;
+  transform: scale(1.05);
+}
 
- 
+.tema-claro input[type="text"],
+.tema-claro input[type="email"],
+.tema-claro textarea {
+  background-color: #ffffff;
+  color: #000;
+  border: 1px solid #ccc;
+}
 
-.tema-escuro main { 
+.tema-claro #tabela {
+  background-color: #fff;
+  border-collapse: collapse;
+}
 
-  background-color: #2c2c2c; 
+.tema-claro th {
+  background-color: #e8e8ff;
+  color: #000;
+}
 
-  color: #f0f0f0; 
+.tema-claro td {
+  background-color: #fdfdfd;
+  color: #222;
+}
 
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2); 
+.tema-claro td img {
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
 
-} 
+.tema-claro form {
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+}
+
+.tema-claro label {
+  color: #222;
+}
+
+.tema-claro h2 {
+  color: #0400ff;
+  border-bottom: 2px solid #c0c0ff;
+}
+
+.tema-claro .rodapé {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
 
