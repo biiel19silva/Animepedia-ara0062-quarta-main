@@ -181,12 +181,12 @@ td img {
 }
 
 .tema-claro nav a:hover {
-  background-color: #e0e0ff;
+  background-color: #6d6dff;
   color: #000;
 }
 
 .tema-claro main {
-  background-color: #ffffff;
+  background-color: #c8c7ff;
   color: #1a1a1a;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
   border: 1px solid #e5e5e5;
