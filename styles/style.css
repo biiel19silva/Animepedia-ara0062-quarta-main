@@ -171,6 +171,12 @@ td img {
   font-weight: bold;
 }
 
+.tema-claro nav b {
+  color: #0400ff;
+  padding: 0 1 rem;
+  text-decoration: none;
+}
+
 .tema-claro nav a:hover {
   background-color: #e0e0ff;
   color: #000;
