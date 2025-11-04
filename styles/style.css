@@ -153,7 +153,7 @@ td img {
 /* NOVO: Classe para o tema claro */
 
 .tema-claro {
-  background-color: #c8c7ff !important; /* Fundo claro e neutro */
+  background-color: #dedeff !important; /* Fundo claro e neutro */
   color: #1a1a1a; /* Texto escuro para contraste */
 }
 
@@ -181,7 +181,7 @@ td img {
 }
 
 .tema-claro nav a:hover {
-  background-color: #6d6dff;
+  background-color: #0400ff;
   color: #000;
 }
 
