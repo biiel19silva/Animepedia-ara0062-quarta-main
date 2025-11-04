@@ -153,13 +153,13 @@ td img {
 /* NOVO: Classe para o tema claro */
 
 .tema-claro {
-  background-color: #ececfc !important; /* Fundo claro e neutro */
-  color: #1a1a1a; /* Texto escuro para contraste */
+  background-color: #ececfc !important; 
+  color: #1a1a1a; 
 }
 
 .tema-claro header, 
 .tema-claro footer {
-  background-color: #e8e8ff; /* Azul muito claro para remeter ao tema original */
+  background-color: #e8e8ff; 
   color: #000000;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
@@ -181,8 +181,8 @@ td img {
 }
 
 .tema-claro nav a:hover {
-  background-color: #0400ff;
-  color: #000;
+  background-color: #ececfc;
+  color: #ffffff;
 }
 
 .tema-claro main {
